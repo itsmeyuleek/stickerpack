@@ -1,34 +1,44 @@
 .menubar {
   width: 100%;
+  position: fixed;
 }
 
 .menubar div {
-  display: flex;
-  align-content: center;
-  align-items: center;
-  justify-content: space-between;
-  height: 60px;
   max-width: 1440px;
-  margin: 0 auto;
+  margin-top: -30px;
   background-color: white;
   box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.1);
+  align-content: flex-end;
+  align-items: flex-end;
+  justify-content: flex-end;
+  display: flex;
 }
 
 .logo {
-  display: block;
-  width: 180px;
-  height: 16px;
-  background-color: red;
+  font-size: 30px;
+  font-family: 'Pacifico', cursive;
+  color: rgb(102, 255, 226);
+  text-decoration: none;
+  margin-left: 20px;
+  background-color: white;
 }
 
-.sticklist {
-  font-size: 14px;
+.sticklist,
+.about,
+.login {
+  font-family: sans-serif;
+  font-size: 20px;
   line-height: 50px;
   color: rgba(0,0,0,.2);
   transition: all .1s ease;
   background-color: white;
+  text-decoration: none;
+  margin: 0 10px;
 }
 
-.sticklist:hover {
+.sticklist:hover,
+.about:hover,
+.login:hover {
   color: rgba(0,0,0,.4);
+  font-size: 23px;
 }

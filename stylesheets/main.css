@@ -1,11 +1,3 @@
 * {
  background-color: rgb(102, 255, 226);
 }
-
-.container {
-  display: flex;
-  justify-content: center;
-  background-color: white;
-  width: 300px;
-  height: 300px;
-}
