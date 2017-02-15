@@ -1,10 +1,18 @@
 .menubar {
   width: 100%;
-  position: fixed;
+  height: 75px;
 }
 
-.menubar div {
-  max-width: 1440px;
+/*.menubar {
+  width: 100%;
+  opacity: .85;
+}
+
+.menubar:hover {
+  opacity: 1;
+}*/
+
+/*.menubar div {
   margin-top: -30px;
   background-color: white;
   box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.1);
@@ -12,18 +20,17 @@
   align-items: flex-end;
   justify-content: flex-end;
   display: flex;
-}
+}*/
 
-.logo {
+/*.logo {
   font-size: 30px;
   font-family: 'Pacifico', cursive;
-  color: rgb(102, 255, 226);
+  color: white;
   text-decoration: none;
   margin-left: 20px;
-  background-color: white;
-}
+}*/
 
-.sticklist,
+/*.sticklist,
 .about,
 .login {
   font-family: sans-serif;
@@ -41,4 +48,149 @@
 .login:hover {
   color: rgba(0,0,0,.4);
   font-size: 23px;
+}*/
+
+.pen-outer {
+  position: fixed;
+  top: -48px;
+  right: 20px;
+}
+
+.pulldown{
+  margin: 64px auto 0;
+  width: 76px;
+  position: relative;
+}
+
+.pulldown .pulldown-toggle{
+  cursor: pointer;
+}
+
+.pulldown .pulldown-toggle-round {
+  height: 60px;
+  width: 75px;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: #fff;
+  opacity: .6;
+}
+
+.pulldown .pulldown-toggle-round:hover {
+  opacity: 1;
+}
+
+.pulldown .pulldown-menu{
+  position: absolute;
+  top: 70px;
+  right: 0px;
+  width: 150px;
+  background-color: #fff;
+  border-radius: 5px;
+  display: none;
+  z-index: 10;
+  box-shadow: 0px 2px 12px rgba(0,0,0,.2);
+}
+
+.pulldown-right .pulldown-menu{
+  left: auto;
+  right: 0px;
+}
+
+.pulldown-toggle.open + .pulldown-menu{
+  display: block;
+  animation-name: openPullDown;
+  animation-duration: 100ms;
+  animation-fill-mode: both;
+  transform-origin: left top;
+}
+
+.pulldown-right .pulldown-toggle.open + .pulldown-menu{
+  transform-origin: right top;
+}
+
+.pulldown-menu ul{
+  list-style: none;
+  padding: 0;
+  margin: 4px 0;
+}
+
+.pulldown-menu ul li{
+  padding: 5px;
+  margin: 0;
+}
+
+.pulldown-menu ul li a{
+  display: block;
+  height: 34px;
+  padding: 0 10px;
+  line-height: 34px;
+  cursor: pointer;
+  color: #d06105;
+  text-decoration: none;
+}
+
+.pulldown-menu ul li a:hover{
+  background-color: rgba(230, 170, 120, 0.15);
+}
+
+/*
+  line icon animation
+  thanks to @SaraSoueidan - http://sarasoueidan.com/blog/navicon-transformicons/
+*/
+.pulldown-toggle-round{
+  position: relative;
+}
+
+.pulldown-toggle-round .lines{
+  position: absolute;
+  top: 27px;
+  left: 12px;
+  display: inline-block;
+  width: 50px;
+  height: 7px;
+  background: rgb(252, 168, 110);
+  border-radius: 3px;
+  transition: all 200ms;
+}
+
+.pulldown-toggle-round .lines::before{
+  position: absolute;
+  top: -12px;
+  content: '';
+  display: inline-block;
+  width: 50px;
+  height: 7px;
+  background: rgb(252, 168, 110);
+  border-radius: 3px;
+  transform-origin: 50% 50%;
+  transition: all 200ms;
+}
+
+.pulldown-toggle-round .lines::after{
+  position: absolute;
+  top: 12px;
+  content: '';
+  display: inline-block;
+  width: 50px;
+  height: 7px;
+  background: rgb(252, 168, 110);
+  border-radius: 4px;
+  transform-origin: 50% 50%;
+  transition: all 200ms;
+}
+
+
+/* when open lines positions */
+.pulldown-toggle-round.open .lines{
+  background: transparent;
+}
+
+.pulldown-toggle-round.open .lines::before{
+  top: 0px;
+  transform: rotate3d(0, 0, 1, 45deg);
+}
+
+.pulldown-toggle-round.open .lines::after{
+  top: 0px;
+  transform: rotate3d(0, 0, 1, -45deg);
 }
