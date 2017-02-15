@@ -1,25 +1,59 @@
 body {
  background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
- font-family: sans-serif;
 }
 
-section {
-  margin-top: 10vh;
+.mainsection {
+ display: flex;
+ flex-direction: column;
+}
+
+.stickers  {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 1000px;
-  margin: 20px auto;
+  margin: 30px auto;
+  width: 880px;
+
 }
 
 .box {
-  /*position: absolute;*/
-  width: 300px;
-  height: 300px;
-  /*align-items: center;
-  left: calc( 100% - 35vw );
-  display: flex;
-  justify-content: space-between;*/
+  width: 250px;
+  height: 250px;
+  margin: auto;
   border-radius: 5px;
   background-color: white;
+  opacity: .95;
+  box-shadow: 3px 4px 8px rgba(1,1,1,.2);
+}
+
+.box:hover {
+  opacity: 1;
+}
+
+p {
+  font-family: sans-serif;
+  color: white;
+  position: absolute;
+  font-size: 15px;
+  opacity: .7;
+  padding: 23px;
+  bottom: -1330px;
+  right: 5px;
+}
+
+h1 {
+  /*left: -790px;
+  top: 660px;
+  font-family: pacifico;
+  font-size: 430px;
+  height: 100vh;
+  position: absolute;
+  transform: rotate(-90deg);
+  color: white;*/
+  margin-left: 17vw;
+  top: 5px;
+  font-family: pacifico;
+  font-size: 70px;
+  position: absolute;
+  color: white;
 }
