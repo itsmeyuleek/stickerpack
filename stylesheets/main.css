@@ -13,7 +13,6 @@ body {
   justify-content: space-between;
   margin: 30px auto;
   width: 880px;
-
 }
 
 .box {
@@ -28,6 +27,7 @@ body {
 
 .box:hover {
   opacity: 1;
+  transform: scale(1.03);
 }
 
 p {
@@ -56,4 +56,96 @@ h1 {
   font-size: 70px;
   position: absolute;
   color: white;
+}
+
+.box#s1 {
+  background-image: url(../images/stick1.svg);
+}
+
+.box#s2 {
+  background-image: url(../images/stick1.svg);
+}
+
+.box#s3 {
+  background-image: url(../images/stick1.svg);
+}
+
+.box#s4 {
+  background-image: url(../images/stick1.svg);
+}
+
+.box#s5 {
+  background-image: url(../images/stick1.svg);
+}
+
+.box#s6 {
+  background-image: url(../images/stick1.svg);
+}
+
+.box#s7 {
+  background-image: url(../images/stick1.svg);
+}
+
+.box#s8 {
+  background-image: url(../images/stick1.svg);
+}
+
+.box#s9 {
+  background-image: url(../images/stick1.svg);
+}
+
+.box#s10 {
+  background-image: url(../images/stick1.svg);
+}
+
+.box#s11 {
+  background-image: url(../images/stick1.svg);
+}
+
+.box#s12 {
+  background-image: url(../images/stick1.svg);
+}
+
+.box#s13 {
+  background-image: url(../images/stick1.svg);
+}
+
+.box#s14 {
+  background-image: url(../images/stick1.svg);
+}
+
+.box#s15 {
+  background-image: url(../images/stick1.svg);
+}
+
+.box#s16 {
+  background-image: url(../images/stick1.svg);
+}
+
+.box#s17 {
+  background-image: url(../images/stick1.svg);
+}
+
+.box#s18 {
+  background-image: url(../images/stick1.svg);
+}
+
+.box#s19 {
+  background-image: url(../images/stick1.svg);
+}
+
+.box#s20 {
+  background-image: url(../images/stick1.svg);
+}
+
+.box#s21 {
+  background-image: url(../images/stick1.svg);
+}
+
+.box#s22 {
+  background-image: url(../images/stick1.svg);
+}
+
+.box#s23 {
+  background-image: url(../images/stick1.svg);
 }
