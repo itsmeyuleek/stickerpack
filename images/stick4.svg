@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 500 500" style="enable-background:new 0 0 500 500;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#SVGID_1_);}
+	.st1{fill:none;}
+	.st2{fill:#FFFFFF;}
+	.st3{font-family:'Arial-Black';}
+	.st4{font-size:98px;}
+</style>
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="314.4109" y1="96.9562" x2="178.0849" y2="420.8739">
+	<stop  offset="0" style="stop-color:#FF2A89"/>
+	<stop  offset="1" style="stop-color:#FF7D15"/>
+</linearGradient>
+<circle class="st0" cx="250" cy="250" r="175.7"/>
+<rect x="86.4" y="208.9" class="st1" width="329.2" height="104.5"/>
+<text transform="matrix(1 0 0 1 90.3866 279.059)" class="st2 st3 st4">meow</text>
+</svg>
