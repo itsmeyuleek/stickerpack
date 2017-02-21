@@ -1,5 +1,6 @@
 body {
- background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+ background-color: #fecc40;
+ /*background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);*/
 }
 
 .mainsection {
@@ -95,35 +96,35 @@ h1 {
 }
 
 .box#s10 {
-  background-image: url(../images/stick1.svg);
+  background-image: url(../images/stick9.svg);
 }
 
 .box#s11 {
-  background-image: url(../images/stick1.svg);
+  background-image: url(../images/stick10.svg);
 }
 
 .box#s12 {
-  background-image: url(../images/stick1.svg);
+  background-image: url(../images/stick11.svg);
 }
 
 .box#s13 {
-  background-image: url(../images/stick1.svg);
+  background-image: url(../images/stick12.svg);
 }
 
 .box#s14 {
-  background-image: url(../images/stick1.svg);
+  background-image: url(../images/stick13.svg);
 }
 
 .box#s15 {
-  background-image: url(../images/stick1.svg);
+  background-image: url(../images/stick14.svg);
 }
 
 .box#s16 {
-  background-image: url(../images/stick1.svg);
+  background-image: url(../images/stick15.svg);
 }
 
 .box#s17 {
-  background-image: url(../images/stick1.svg);
+  background-image: url(../images/stick11.svg);
 }
 
 .box#s18 {
