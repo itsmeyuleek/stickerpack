@@ -7,7 +7,7 @@
 	.st1{fill:none;}
 	.st2{fill:#FFFFFF;}
 	.st3{font-family:'Arial-Black';}
-	.st4{font-size:115px;}
+	.st4{font-size:127px;}
 </style>
 <linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="424.0321" y1="257.1566" x2="72.9232" y2="242.7181" gradientTransform="matrix(1 0 0 -1 0 500)">
 	<stop  offset="0" style="stop-color:#FF2215"/>
@@ -15,5 +15,9 @@
 </linearGradient>
 <circle class="st0" cx="250" cy="250" r="175.7"/>
 <rect x="84.4" y="202.6" class="st1" width="329.2" height="191.9"/>
+<<<<<<< HEAD
 <text transform="matrix(1 0 0 1 127.5921 290.8901)" class="st2 st3 st4">LOL</text>
+=======
+<text transform="matrix(1 0 0 1 114.5921 292.8906)" class="st2 st3 st4">LOL</text>
+>>>>>>> master
 </svg>
