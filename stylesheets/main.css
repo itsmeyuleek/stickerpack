@@ -64,7 +64,7 @@ h1 {
 }
 
 .box#s2 {
-  background-image: url(../images/stick2.svg);
+  background-image: url(../images/stick16.svg);
 }
 
 .box#s3 {
@@ -72,11 +72,11 @@ h1 {
 }
 
 .box#s4 {
-  background-image: url(../images/stick4.svg);
+  background-image: url(../images/stick8.svg);
 }
 
 .box#s5 {
-  background-image: url(../images/stick5.svg);
+  background-image: url(../images/stick11.svg);
 }
 
 .box#s6 {
@@ -88,65 +88,45 @@ h1 {
 }
 
 .box#s8 {
-  background-image: url(../images/stick8.svg);
-}
-
-.box#s9 {
-  background-image: url(../images/stick8.svg);
-}
-
-.box#s10 {
-  background-image: url(../images/stick9.svg);
-}
-
-.box#s11 {
-  background-image: url(../images/stick10.svg);
-}
-
-.box#s12 {
-  background-image: url(../images/stick11.svg);
-}
-
-.box#s13 {
-  background-image: url(../images/stick12.svg);
-}
-
-.box#s14 {
-  background-image: url(../images/stick13.svg);
-}
-
-.box#s15 {
   background-image: url(../images/stick14.svg);
 }
 
-.box#s16 {
+.box#s9 {
+  background-image: url(../images/stick9.svg);
+}
+
+.box#s10 {
   background-image: url(../images/stick15.svg);
 }
 
+.box#s11 {
+  background-image: url(../images/stick4.svg);
+}
+
+.box#s12 {
+  background-image: url(../images/stick12.svg);
+}
+
+.box#s13 {
+  background-image: url(../images/stick13.svg);
+}
+
+.box#s14 {
+  background-image: url(../images/stick17.svg);
+}
+
+.box#s15 {
+  background-image: url(../images/stick10.svg);
+}
+
+.box#s16 {
+  background-image: url(../images/stick2.svg);
+}
+
 .box#s17 {
-  background-image: url(../images/stick11.svg);
+  background-image: url(../images/stick5.svg);
 }
 
 .box#s18 {
-  background-image: url(../images/stick1.svg);
-}
-
-.box#s19 {
-  background-image: url(../images/stick1.svg);
-}
-
-.box#s20 {
-  background-image: url(../images/stick1.svg);
-}
-
-.box#s21 {
-  background-image: url(../images/stick1.svg);
-}
-
-.box#s22 {
-  background-image: url(../images/stick1.svg);
-}
-
-.box#s23 {
-  background-image: url(../images/stick1.svg);
+  background-image: url(../images/stick18.svg);
 }
