@@ -1,9 +1,9 @@
 .list {
   background-color: white;
-  width: 597px;
-  height: 807px;
+  width: 797px;
+  height: 507px;
   position: absolute;
-  margin: -37px 35% 0 35%;
+  margin: 37px 35% 0 6%;
   box-shadow: 3px 3px 7px rgba(1,1,1,.2);
   display: flex;
   flex-direction: column;
@@ -16,9 +16,8 @@
   height: 51px;
   background-color: #ff7400;
   text-decoration: none;
-  top: 869px;
-  margin-left: 45.5%;
-  margin-right: 44%;
+  top: 568px;
+  right: 12vw;
   border-radius: 5px;
   box-shadow: 3px 3px 7px rgba(1,1,1,.2);
 }
@@ -48,9 +47,9 @@
 }
 
 .stick {
-  width: 200px;
-  height: 200px;
-  margin: -17px;
+  width: 170px;
+  height: 170px;
+  margin: -32px -96px;
 }
 
 .stick#s1 {
@@ -67,4 +66,8 @@
 
 .stick#s4 {
   background-image: url(../images/stick8.svg);
+}
+
+.stick#s5 {
+  background-image: url(../images/stick15.svg);
 }
