@@ -80,6 +80,7 @@
   cursor: pointer;
   color: #d06105;
   text-decoration: none;
+  font-family: sans-serif;
 }
 
 .pulldown-menu ul li a:hover{
