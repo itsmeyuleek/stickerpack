@@ -5,15 +5,22 @@
 <style type="text/css">
 	.st0{fill:url(#SVGID_1_);}
 	.st1{fill:none;}
-	.st2{fill:#FCFCFC;}
-	.st3{font-family:'Arial-Black';}
-	.st4{font-size:110px;}
+	.st2{enable-background:new    ;}
+	.st3{fill:#FCFCFC;}
 </style>
-<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="418.9209" y1="93.8708" x2="78.7215" y2="5.5169" gradientTransform="matrix(1 0 0 1 0 200)">
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="418.9209" y1="406.1292" x2="78.7215" y2="494.4831" gradientTransform="matrix(1 0 0 -1 0 700)">
 	<stop  offset="0" style="stop-color:#E90027"/>
 	<stop  offset="1" style="stop-color:#0F00D4"/>
 </linearGradient>
 <circle class="st0" cx="250" cy="250" r="175.7"/>
 <rect x="98.1" y="214.7" class="st1" width="312.4" height="115.3"/>
-<text transform="matrix(1 0 0 1 133.1089 289.8867)" class="st2 st3 st4">LOL</text>
+<g class="st2">
+	<path class="st3" d="M114.7,201.4h30.3v73.8h47.2v24.1h-77.5V201.4z"/>
+	<path class="st3" d="M199.8,250.4c0-16,4.5-28.4,13.4-37.3c8.9-8.9,21.3-13.4,37.2-13.4c16.3,0,28.9,4.4,37.7,13.1
+		c8.8,8.8,13.2,21,13.2,36.8c0,11.4-1.9,20.8-5.8,28.2c-3.9,7.3-9.4,13-16.7,17.1c-7.3,4.1-16.4,6.1-27.2,6.1
+		c-11,0-20.2-1.8-27.4-5.3c-7.2-3.5-13.1-9.1-17.6-16.7C202,271.4,199.8,261.9,199.8,250.4z M230,250.6c0,9.9,1.8,17,5.5,21.3
+		c3.7,4.3,8.7,6.5,15,6.5c6.5,0,11.5-2.1,15.1-6.3c3.6-4.2,5.3-11.8,5.3-22.8c0-9.2-1.9-16-5.6-20.2c-3.7-4.3-8.8-6.4-15.1-6.4
+		c-6.1,0-11,2.2-14.7,6.5C231.9,233.4,230,240.6,230,250.6z"/>
+	<path class="st3" d="M317.5,201.4h30.3v73.8H395v24.1h-77.5V201.4z"/>
+</g>
 </svg>
