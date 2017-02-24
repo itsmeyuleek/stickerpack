@@ -9,6 +9,18 @@
   flex-direction: column;
 }
 
+.cart img {
+  width: 60px;
+  height: 60px;
+  margin-top: -59px;
+  right: 126px;
+  position: absolute;
+}
+
+.cart img:hover {
+  cursor: pointer;
+}
+
 .buttonsave {
   position: absolute;
   display: block;
