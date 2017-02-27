@@ -44,15 +44,9 @@ p {
 }
 
 h1 {
-  /*left: -790px;
-  top: 660px;
-  font-family: pacifico;
-  font-size: 430px;
-  height: 100vh;
-  position: absolute;
-  transform: rotate(-90deg);
-  color: white;*/
-  padding-left: 22px;
+  /*padding-left: 35vw;*/
+  left: 37vw;
+  right: auto;
   top: 7px;
   font-family: pacifico;
   font-size: 70px;
@@ -146,20 +140,20 @@ h1 {
 
   content: '';
   position: absolute;
-  bottom: 0;
-  left: 0;
+  bottom: 30px;
+  left: 10px;
   right: 0;
   margin: 0 auto;
   display: block;
   height: 250px;
   width: 250px;
-  background-color: #DDD;
+  background-color: orange;
 
   transition:
     transform 0.8s ease-out,
     margin 0.8s ease-out,
     opacity 0.8s ease-out,
     border-radius 0.4s ease-out,
-    max-height 0.4s ease-out,
-    max-width 0.4s ease-out;
+    max-height 0.5s ease-out,
+    max-width 0.5s ease-out;
 }
