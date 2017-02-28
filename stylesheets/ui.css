@@ -35,3 +35,35 @@
   left: 11px;
   border-radius: 3px;
 }
+
+@media screen and (max-width: 1024px) {
+
+  .stickers {
+    width: 876px;
+  }
+  .button {
+    right: -179px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+  .button {
+    right: -251px;
+    width: 35px;
+    height: 35px;
+  }
+
+  .button .plus .horizontal {
+    width: 25px;
+    height: 7px;
+    top: 14px;
+  }
+
+  .button .plus .vertical {
+    width: 7px;
+    height: 25px;
+    top: -2px;
+    left: 13.5px;
+  }
+}

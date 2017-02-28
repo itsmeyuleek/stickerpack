@@ -1,6 +1,7 @@
 body {
  background-color: #fecc40;
  /*background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);*/
+  transition: all .3s ease;
 }
 
 .mainsection {
@@ -156,4 +157,50 @@ h1 {
     border-radius 0.4s ease-out,
     max-height 0.5s ease-out,
     max-width 0.5s ease-out;
+}
+
+@media screen and (max-width: 1024px) {
+  .box {
+    width: 220px;
+    height: 220px;
+    margin: auto 36px;
+  }
+
+  h1 {
+    margin-left: -70px;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .box {
+   margin: auto 35px;
+  }
+
+  .stickers {
+    margin: 30px -25px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .stickers {
+    flex-direction: column;
+    margin: 25px 70px -30px -70px;
+  }
+
+  .box {
+    margin: 10px auto;
+    width: 300px;
+    height: 300px;
+  }
+
+  h1 {
+    margin-left: -76px;
+  }
+
+}
+
+@media screen and (max-width: 441px) {
+  h1 {
+    margin-left: 50px;
+  }
 }
